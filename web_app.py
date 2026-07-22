@@ -11,7 +11,7 @@ from datetime import datetime
 from openai import OpenAI
 
 # ====== 配置区 ======
-API_KEY = "sk-ws-H.EHLIRRL.4dMS.MEUCIQDsJFj7H6TyP1nMu7BpLeAIGaiNOlKwl-9cerweuc03AgIgfxJlaywcwb0J4_ItJpwkFUmfo6N5tPshZZKXXS5B6VQ"  # 替换成你的百炼 Key
+API_KEY =st.secrets["BAILIAN_API_KEY"]
 BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 MODEL = "qwen-plus"
 
