@@ -293,7 +293,7 @@ if 'report_html' not in st.session_state: st.session_state.report_html = ""
 # ---------- 1. 输入信息 ----------
 if st.session_state.step == 'input':
     st.markdown("### 🎯 第一步：填写你的背景与意向岗位")
-    with st.form("input_form"):
+    with st.form("input_form1"):
         col1, col2 = st.columns(2)
         target = col1.text_input("🎯 意向岗位")
         major = col2.text_input("📚 你的专业")
